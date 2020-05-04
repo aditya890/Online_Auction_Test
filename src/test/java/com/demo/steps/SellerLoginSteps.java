@@ -41,6 +41,15 @@ public class SellerLoginSteps {
 		Thread.sleep(500);
 		String title=driver.getTitle();
 		if(title.contains(" Seller Bid Data Form")) {
+			//fill the register data
+			Thread.sleep(500);
+			driver.findElement(By.name("iteam_name")).sendKeys("phone");
+			driver.findElement(By.name("model")).sendKeys("samsung");
+			driver.findElement(By.name("bid_price")).sendKeys("100");
+			driver.findElement(By.xpath("//input[@value='Register']")).click();
+			
+			
+			
 			return 1;
 		}
 		else {

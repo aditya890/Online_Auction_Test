@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14538" started-at="2020-05-04T12:25:52Z" finished-at="2020-05-04T12:26:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14538" started-at="2020-05-04T12:25:52Z" finished-at="2020-05-04T12:26:07Z">
+      <class name="com.demo.test.AuctionManageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo.test.AuctionManageTest@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="12344" started-at="2020-05-04T12:25:52Z" finished-at="2020-05-04T12:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="auctionManageTest()[pri:0, instance:com.demo.test.AuctionManageTest@5e3a8624]" name="auctionManageTest" duration-ms="1786" started-at="2020-05-04T12:26:05Z" finished-at="2020-05-04T12:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auctionManageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demo.test.AuctionManageTest@5e3a8624]" name="teardown" is-config="true" duration-ms="342" started-at="2020-05-04T12:26:06Z" finished-at="2020-05-04T12:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demo.test.AuctionManageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
